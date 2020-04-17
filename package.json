@@ -1,0 +1,23 @@
+{
+  "name": "febri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "febriansyah-adi-putra": "npm run start --prefix febriansyah-adi-putra",
+    "build": "npm run build --prefix febriansyah-adi-putra",
+    "start": "concurrently \"npm run server\" \"npm run febriansyah-adi-putra\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3",
+    "sweetalert2": "^9.10.12"
+  }
+}
