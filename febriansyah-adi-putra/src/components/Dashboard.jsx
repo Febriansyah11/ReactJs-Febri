@@ -5,6 +5,9 @@ import Portfolio from './Portfolio';
 import About from './About';
 import Flower from '@material-ui/icons/LocalFlorist';
 import Footer from './Footer';
+import { Facebook, Instagram, GitHub } from '@material-ui/icons';
+
+
 
 class Dashboard extends Component {
     constructor() {
@@ -40,21 +43,28 @@ class Dashboard extends Component {
                     </div>
                     :
                     <div className="d-flex flex-column">
-                        <div id="dashboard" className="dashboard d-flex justify-content-center align-items-center p-5">
+                        <div id="dashboard" className="dashboard d-flex justify-content-center align-items-center p-5 p-xs-1 p-sm-2">
                             <div className="d-flex flex-column justify-content-center align-items-center dash-febri">
-                                <img height="300" width="300" src={photo} alt="febriansyah adi putra" />
+                                <img className="potoprofil" height="300" width="300" src={photo} alt="febriansyah adi putra" />
                                 <p className="m-1 text-raleway-febri text-center">Febriansyah Adi Putra</p>
                                 <p className="m-1 text-raleway-febri text-center">Web Developer & Backend Developer</p>
+                                <div className="d-flex flex-row align-items-center flex-grow-0">
+                                    <a href="https://www.facebook.com/febriansyah.adiputra.3"><Facebook fontSize="large" className="navbar-icon-social m-1" style={{ color: 'white', textDecoration: 'dark' }} /></a>
+                                    <a href="https://www.instagram.com/febriansz_/"><GitHub fontSize="large" className="navbar-icon-social m-1" style={{ color: 'white', textDecoration: 'dark' }} /></a>
+                                    <a href="https://github.com/Febriansyah11"><Instagram fontSize="large" className="navbar-icon-social m-1" style={{ color: 'white', textDecoration: 'dark' }} /></a>
+                                </div>
                             </div>
                         </div>
-                        <div className="dashboard dash-port bg-white d-flex flex-column justify-content-start align-items-center p-5 ">
-                            <div id="portfolio" className="d-flex flex-column align-items-center justify-content-center">
-                                <p className="m-2 mb-xl-5 mb-lg-5 text-raleway-dashboard"><Flower />&nbsp;PORTFOLIO&nbsp;<Flower /></p>
-                                <Portfolio />
-                            </div>
+                        <div className="dashboard bg-white h-auto p-5">
+                            <div className="d-flex flex-column align-items-center justify-content-center">
+                                <p id="portfolio" className="mb-xl-5 mb-lg-5 text-raleway-dashboard"><Flower />&nbsp;PORTFOLIO&nbsp;<Flower /></p>
+                                <div className="d-flex flex-row flex-wrap text-raleway-about text-dark">
+                                    <Portfolio />
+                                </div>
+                            </div> 
                         </div>
-                        <div className="dashboard dash-bout d-flex flex-column justify-content-start align-items-center p-5 ">
-                            <div id="about" className="d-flex flex-column align-items-center justify-content-center">
+                        <div id="about" className="dashboard dash-bout d-flex justify-content-center align-items-center p-5 ">
+                            <div className="d-flex flex-column align-items-center justify-content-center">
                                 <p className="m-2 mb-xl-5 mb-lg-5 text-raleway-dashboard text-white"><Flower />&nbsp;ABOUT&nbsp;<Flower /></p>
                                 <About />
                             </div>

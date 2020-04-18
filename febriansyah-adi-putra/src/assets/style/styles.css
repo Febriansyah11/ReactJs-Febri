@@ -29,6 +29,15 @@
   font-weight: 700;
 }
 
+.text-raleway-header {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 18px;
+
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
 .text-raleway-footer {
   font-family: Raleway-Regular;
   font-size: 12px;
@@ -108,6 +117,15 @@
   }
   .text-raleway-about-item {
     font-size: 20px;
+  }
+  .text-raleway-febri {
+    font-size: 24px;
+  }
+  .text-raleway-header{
+    font-size: 14px;
+  }
+  .text-raleway-dashboard{
+    font-size: 22px;
   }
 
 }

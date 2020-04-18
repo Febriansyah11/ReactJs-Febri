@@ -1,69 +1,97 @@
-.navbar-style {
-  background-color: #01FF70;
-}
-
-.welcome-style {
-  display: flex;
-  background-color: #20b2aa;
-  height: 100vh;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-.welcome-style-text {
-  color: white;
-}
-.wlecome-icon:hover {
-  text-decoration-color: white;
-  color: white;
-}
-
-.dashboard{
-  height: 100vh;
-  background-color: #5bc0de;
-} 
-@media screen and (max-width: 750px) {  
-  .dash-port {
-    height: 1100px;
-  }
-  .dash-bout {
-    height: 850px;
+  .navbar-style {
+    background-color: #01FF70;
   }
 
-}
+  .welcome-style {
+    display: flex;
+    background-color: #20b2aa;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  .welcome-style-text {
+    color: white;
+  }
+  .wlecome-icon:hover {
+    text-decoration-color: white;
+    color: white;
+  }
+  .card-port{
+    text-align: center;
+    width: 25rem;
+    height: 18rem;
+    margin: 10px;
+  }
+  .card-image {
+    width: 16rem;
+    height: 10rem;
+  }
+  .dashboard{
+    height: 100vh;
+    background-color: #5bc0de;
+  } 
+
+  /* .dash-portp {
+    width: 500px;
+    overflow: hidden;
+  } */
+  @media screen and (max-width: 750px) {  
+    .dash-portp {
+      width: 500px;
+      overflow: hidden;
+    }
+    /* .dashboard {
+      height: 95vh;
+    }
+     .dash-port {
+      display: flex;
+      flex-direction: row;
+    }
+    .dash-bout {
+      height: 775px;
+    }
+    .dash-foot {
+      height: 350px;
+    } */
+    .potoprofil {
+      width: 200px;
+      height:180px;
+    }
+    .card-port{
+      width: 20rem;
+      height: 18rem;
+      margin: 10px;
+    }
+  }
+  @media screen and (max-width: 1200px) {  
+    .dash-port {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 
 
-/* .dash-footer {
-  height: vh;
-} */
-#skill  {
- color : #313e61
-}
-#education  {
- color : white
-}
-#experience  {
- color : white
-}
-#skill:hover {
-  text-shadow: 2px 2px 4px #191919;
-}
-#experience:hover {
-  text-shadow: 2px 2px 4px #4c4c4c;
-}
-
-
-.card-futsal-bg{
- width: 18rem;
- height:18rem;
- background-image: url(../image/futsalBg1.png);
- background-repeat: no-repeat;
- background-size: 18rem 15rem;
- background-position: 0%;
-
-}
+  /* .dash-footer {
+    height: vh;
+  } */
+  #skill  {
+  color : #313e61
+  }
+  #education  {
+  color : white
+  }
+  #experience  {
+  color : white
+  }
+  #skill:hover {
+    text-shadow: 2px 2px 4px #191919;
+  }
+  #experience:hover {
+    text-shadow: 2px 2px 4px #4c4c4c;
+  }
 
 
