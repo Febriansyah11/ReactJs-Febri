@@ -4,7 +4,7 @@
 
   .welcome-style {
     display: flex;
-    background-color: #20b2aa;
+    background-color: #17A2B8;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -34,28 +34,12 @@
     background-color: #5bc0de;
   } 
 
-  /* .dash-portp {
-    width: 500px;
-    overflow: hidden;
-  } */
   @media screen and (max-width: 750px) {  
     .dash-portp {
       width: 500px;
       overflow: hidden;
     }
-    /* .dashboard {
-      height: 95vh;
-    }
-     .dash-port {
-      display: flex;
-      flex-direction: row;
-    }
-    .dash-bout {
-      height: 775px;
-    }
-    .dash-foot {
-      height: 350px;
-    } */
+
     .potoprofil {
       width: 200px;
       height:180px;
@@ -73,11 +57,6 @@
     }
   }
 
-
-
-  /* .dash-footer {
-    height: vh;
-  } */
   #skill  {
   color : #313e61
   }

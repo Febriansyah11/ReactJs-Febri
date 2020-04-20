@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a64323f631c4e99ef89ae7f8c36fd18",
+    "revision": "c99132d6704acdf76b21dbbe9cbd03f7",
     "url": "/index.html"
   },
   {
-    "revision": "32097a1fdb4b06ce1d3d",
+    "revision": "a847ebe699baee96048e",
     "url": "/static/css/2.7643b639.chunk.css"
   },
   {
-    "revision": "05271ee51ddc5c3cf642",
-    "url": "/static/css/main.a0b84ec9.chunk.css"
+    "revision": "7cff0dbe1433ad9657a6",
+    "url": "/static/css/main.e8473100.chunk.css"
   },
   {
-    "revision": "32097a1fdb4b06ce1d3d",
-    "url": "/static/js/2.a324525e.chunk.js"
+    "revision": "a847ebe699baee96048e",
+    "url": "/static/js/2.ed468340.chunk.js"
   },
   {
     "revision": "5e9b6f5c16b720e8a86875f97734673e",
-    "url": "/static/js/2.a324525e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ed468340.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05271ee51ddc5c3cf642",
-    "url": "/static/js/main.000dc075.chunk.js"
+    "revision": "7cff0dbe1433ad9657a6",
+    "url": "/static/js/main.336ebf0a.chunk.js"
   },
   {
     "revision": "621a5c449f8c246ebd47",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Raleway-SemiBold.5a25c50b.ttf"
   },
   {
-    "revision": "6f7a2864464eefc53e89bb45955663bb",
-    "url": "/static/media/blog.6f7a2864.png"
+    "revision": "4d40784488de4f3b338d0cb2039b3cd5",
+    "url": "/static/media/bgblg.4d407844.png"
   },
   {
     "revision": "50cfb66b3e44c31020f5db6cd44cddf0",

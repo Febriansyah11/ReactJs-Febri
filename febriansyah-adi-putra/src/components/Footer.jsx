@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Form, FormControl, FormGroup, Button, Nav } from 'react-bootstrap'
+import { Navbar, Form, FormControl, FormGroup, Button } from 'react-bootstrap'
 import Flower from '@material-ui/icons/LocalFlorist';
 import '../assets/style/component.css'
 import Swal from 'sweetalert2'
@@ -17,20 +17,13 @@ export default class Footer extends Component {
         this.handleSubmit = this.handleSubmit.bind(this)
     }
 
-    componentDidMount() {
-        console.log(this.state, "cdn");
-
-    }
-
     handleChange = (e) => {
-        console.log(e.target.value, "onChange");
         this.setState({ [e.target.name]: e.target.value })
     }
 
     handleSubmit(e) {
         e.preventDefault()
-
-        if (this.state.name === "" && this.state.name.length <= 2 && this.state.name === RegExp(/[$-/:-?{-~!"^_`\[\]]/)) {
+        if (this.state.name === "" && this.state.name.length <= 2) {
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
