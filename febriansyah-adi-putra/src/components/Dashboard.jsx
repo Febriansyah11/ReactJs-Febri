@@ -29,7 +29,7 @@ class Dashboard extends Component {
 
     render() {
         console.log(this.state.time, "time render");
-        if (this.state.time === 2) {
+        if (this.state.time === 5) {
             clearInterval(this.interval)
             this.setState({
                 loading: false,
