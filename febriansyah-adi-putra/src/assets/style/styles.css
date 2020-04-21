@@ -123,6 +123,17 @@
     color: white;
 }
 
+.text-raleway-about-project {
+    font-family: Raleway-Light;
+    line-height: 23px;
+    font-size: 16px;
+    color: gray;
+}
+
+.text-raleway-about-project:hover {
+    color: white
+}
+
 @media screen and (max-width: 1050px) {
     .text-raleway-about {
         font-size: 30px;

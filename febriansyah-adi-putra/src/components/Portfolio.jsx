@@ -89,7 +89,7 @@ export default class Portfolio extends Component {
             <Fragment>
                 <Card className="card-port flex-grow-1 shadow" >
                     <Card.Header>Futsal Booking App</Card.Header>
-                    <Card.Body className="mb-5">
+                    <Card.Body className="mb-5 ">
                         <Card.Text>
                             <Card.Img className="card-image" src={FutsalBg} variant="top" />
                         </Card.Text>

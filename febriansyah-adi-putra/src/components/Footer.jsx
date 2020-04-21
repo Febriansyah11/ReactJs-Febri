@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Form, FormControl, FormGroup, Button } from 'react-bootstrap'
+import { Navbar, Form, FormControl, FormGroup, Button, Nav } from 'react-bootstrap'
 import Flower from '@material-ui/icons/LocalFlorist';
 import '../assets/style/component.css'
 import Swal from 'sweetalert2'
@@ -94,6 +94,9 @@ export default class Footer extends Component {
                     </div>
                     <Button type="submit" className="col-xl-2 col-lg-4 col-md-11 col-sm-4 col-xs-8 col-7">Send</Button>
                 </Form>
+                <Nav.Link className="text-center mt-5 text-raleway-about-project ">
+                    About this project, i use ReactJs and NodeJs to make this, and i don't use templates
+                </Nav.Link>
             </Navbar>
         )
     }
