@@ -1,151 +1,271 @@
 @font-face {
-  font-family: Raleway-Bold;
-  src: url(../fonts/Raleway-Bold.ttf);
+    font-family: Raleway-Bold;
+    src: url(../fonts/Raleway-Bold.ttf);
 }
+
 @font-face {
-  font-family: Raleway-SemiBold;
-  src: url(../fonts/Raleway-SemiBold.ttf);
+    font-family: Raleway-SemiBold;
+    src: url(../fonts/Raleway-SemiBold.ttf);
 }
+
 @font-face {
-  font-family: Raleway-ExtraBold;
-  src: url(../fonts/Raleway-ExtraBold.ttf);
+    font-family: Raleway-ExtraBold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
 }
+
 @font-face {
-  font-family: Raleway-Light;
-  src: url(../fonts/Raleway-Light.ttf);
+    font-family: Raleway-Light;
+    src: url(../fonts/Raleway-Light.ttf);
 }
+
 @font-face {
-  font-family: Raleway-LightItalic;
-  src: url(../fonts/Raleway-LightItalic.ttf);
+    font-family: Raleway-LightItalic;
+    src: url(../fonts/Raleway-LightItalic.ttf);
 }
+
 @font-face {
-  font-family: Raleway-Regular;
-  src: url(../fonts/Raleway-Regular.ttf);
+    font-family: Raleway-Regular;
+    src: url(../fonts/Raleway-Regular.ttf);
 }
 
 .text-raleway-welcome {
-  font-family: Raleway-Bold;
-  font-size: 30px;
-  font-weight: 700;
+    font-family: Raleway-Bold;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .text-raleway-header {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  line-height: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
 
-  font-weight: 400;
-  font-style: normal;
-  color: white;
-}
 .text-raleway-footer {
-  font-family: Raleway-Regular;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-Regular;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
 }
+
 .text-raleway-welcome-button {
-  font-family: Raleway-Regular;
-  font-size: 16px;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
+
 .text-raleway-febri {
-  font-family: Raleway-SemiBold;
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-SemiBold;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
+
 .text-raleway-febri-item {
-  font-family: Raleway-SemiBold;
-  font-size: 22px;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-SemiBold;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
+
 .text-raleway-dashboard {
-  font-family: Raleway-Bold;
-  font-weight: 700;
-  font-size: 28px;
-  font-style: normal;
-  color: #313e61;
+    font-family: Raleway-Bold;
+    font-weight: 700;
+    font-size: 28px;
+    font-style: normal;
+    color: #313e61;
 }
+
 #example-collapse-te00xt {
-  font-family: Raleway-SemiBold;
-  font-size: 28px;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-SemiBold;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 .text-raleway-about {
-  font-family: Raleway-Bold;
-  font-size: 24px;
-  font-weight: 400;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 .text-raleway-about-italic {
-  /* font-family: Raleway-SemiBold; */
-  font-size: 22px;
-  font-weight: 600;
-  font-style: italic;
-  color: white;
+    /* font-family: Raleway-SemiBold; */
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
 }
+
 .text-raleway-about-item {
-  font-family: Raleway-SemiBold;
-  font-size: 26px;
-  font-weight: 600;
-  font-style: normal;
-  color: white;
+    font-family: Raleway-SemiBold;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
 }
 
 .text-raleway-header-mail {
-  font-family: Raleway-Bold;
-  font-size: 22px;
-  font-weight: 400;
-  font-style: normal;
-  color: white;}
-
-@media screen and (max-width: 750px) {  
-  .text-raleway-about {
-    font-size: 18px;
-  }
-  .text-raleway-about-item {
-    font-size: 20px;
-  }
-  .text-raleway-febri {
-    font-size: 24px;
-  }
-  .text-raleway-header{
-    font-size: 14px;
-  }
-  .text-raleway-dashboard{
+    font-family: Raleway-Bold;
     font-size: 22px;
-  }
-
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
+
+@media screen and (max-width: 1050px) {
+    .text-raleway-about {
+        font-size: 30px;
+    }
+    .text-raleway-about-item {
+        font-size: 31px;
+    }
+    .text-raleway-febri {
+        font-size: 40px;
+    }
+    .text-raleway-header {
+        font-size: 18px;
+    }
+    .text-raleway-dashboard {
+        margin-top: 10%;
+        font-size: 38px;
+        margin-bottom: 10%
+    }
+    .text-raleway-about-italic {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text-raleway-about {
+        font-size: 26px;
+    }
+    .text-raleway-about-item {
+        font-size: 28px;
+    }
+    .text-raleway-febri {
+        font-size: 30px;
+    }
+    .text-raleway-header {
+        font-size: 14px;
+    }
+    .text-raleway-dashboard {
+        margin-top: 10%;
+        font-size: 30px;
+        margin-bottom: 10%
+    }
+    .text-raleway-about-italic {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .text-raleway-about {
+        font-size: 20px;
+    }
+    .text-raleway-about-item {
+        font-size: 22px;
+    }
+    .text-raleway-febri {
+        font-size: 26px;
+    }
+    .text-raleway-header {
+        font-size: 14px;
+    }
+    .text-raleway-dashboard {
+        font-size: 22px;
+    }
+    .text-raleway-about-italic {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text-raleway-about {
+        font-size: 20px;
+    }
+    .text-raleway-about-item {
+        font-size: 21px;
+    }
+    .text-raleway-febri {
+        font-size: 23px;
+    }
+    .text-raleway-header {
+        font-size: 14px;
+    }
+    .text-raleway-dashboard {
+        font-size: 22px;
+    }
+    .text-raleway-about-italic {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-raleway-about {
+        font-size: 17px;
+    }
+    .text-raleway-about-item {
+        font-size: 17px;
+    }
+    .text-raleway-febri {
+        font-size: 21px;
+    }
+    .text-raleway-dashboard {
+        font-size: 20px;
+    }
+    .text-raleway-about-italic {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .text-raleway-about {
+        font-size: 15px;
+    }
+    .text-raleway-about-item {
+        font-size: 16px;
+    }
+    .text-raleway-febri {
+        font-size: 21px;
+    }
+    .text-raleway-dashboard {
+        font-size: 20px;
+    }
+    .text-raleway-about-italic {
+        font-size: 16px;
+    }
+}
+
+
 /* Spinner */
+
 .App-logo {
-  height: 20vmin;
-  pointer-events: none;
+    height: 11vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 3s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 3s linear;
+    }
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

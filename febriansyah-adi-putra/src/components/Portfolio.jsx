@@ -87,29 +87,36 @@ export default class Portfolio extends Component {
 
         return (
             <Fragment>
-                <Card className="card-port flex-grow-1 shadow " >
+                <Card className="card-port flex-grow-1 shadow" >
                     <Card.Header>Futsal Booking App</Card.Header>
-                    <Card.Body>
+                    <Card.Body className="mb-5">
                         <Card.Text>
-                            <Card.Img className="card-image" style={{ height: '9rem' }} src={FutsalBg} variant="top" />
+                            <Card.Img className="card-image" src={FutsalBg} variant="top" />
                         </Card.Text>
-                        <Button variant="primary" onClick={() => this.setState({ showModal1: true })}>Show more</Button>
+                        <Card.Body>
+                            <Button variant="primary" onClick={() => this.setState({ showModal1: true })}>Show more</Button>
+                        </Card.Body>
                     </Card.Body>
                 </Card>
                 <Card className="card-port flex-grow-1 shadow ">
                     <Card.Header>My Blog</Card.Header>
                     <Card.Body>
                         <Card.Text>
-                        <Card.Img className="card-image" style={{ height: '9rem' }} src={blog} variant="top" />
+                            <Card.Img className="card-image" src={blog} variant="top" />
                         </Card.Text>
-                        <Button variant="primary" onClick={() => this.setState({ showModal2: true })}>Show more</Button>
+                        <Card.Body>
+
+                            <Button variant="primary" onClick={() => this.setState({ showModal2: true })}>Show more</Button>
+                        </Card.Body>
                     </Card.Body>
                 </Card>
                 <Card className="card-port flex-grow-1 shadow">
                     <Card.Header>Another project on my github</Card.Header>
                     <Card.Body>
                         <Card.Img className="card-image" src={Github} variant="top" />
-                        <Button variant="primary" onClick={e => window.location.href = 'https://github.com/Febriansyah11'} >Show more</Button>
+                        <Card.Body className="m-auto">
+                            <Button variant="primary" onClick={e => window.location.href = 'https://github.com/Febriansyah11'} >Show more</Button>
+                        </Card.Body>
                     </Card.Body>
                 </Card>
                 <Modal1

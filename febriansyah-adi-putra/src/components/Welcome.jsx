@@ -18,7 +18,7 @@ class Welcome extends Component {
         let text = document.getElementById('welcome-text')
         this.interval = setInterval(() => this.setState({ time: this.state.time + 1 }), 680);
         welcome.style.height = 0
-        text.style.color = "#20b2aa"
+        text.style.color = "#17A2B8"
         this.setState({
             button: false
         })
