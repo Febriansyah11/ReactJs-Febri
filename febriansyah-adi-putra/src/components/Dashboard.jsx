@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import ReactSpinner from '../logo.svg'
-import photo from '../assets/image/photo.svg'
 import Portfolio from './Portfolio';
 import About from './About';
 import Flower from '@material-ui/icons/LocalFlorist';
@@ -9,18 +8,19 @@ import febri from '../assets/image/febri1.png'
 import { Facebook, Instagram, GitHub } from '@material-ui/icons';
 
 
-
 class Dashboard extends Component {
     constructor() {
         super()
         this.state = {
             time: 1,
-            loading: true
+            loading: true,
         }
     }
 
     componentDidMount() {
         this.interval = setInterval(() => this.setState({ time: this.state.time += 1 }), 1000);
+        let time = localStorage.getItem("f121212")
+        parseInt(time) === 3 ? localStorage.setItem("f121212", 3) : localStorage.setItem("f121212", 7)
     }
 
     handleClickHref = () => {
@@ -28,13 +28,14 @@ class Dashboard extends Component {
     }
 
     render() {
-        console.log(this.state.time, "time render");
-        if (this.state.time === 5) {
+        let time = localStorage.getItem("f121212")
+        if (this.state.time === parseInt(time)) {
             clearInterval(this.interval)
             this.setState({
                 loading: false,
-                time: 0
+                time: 0,
             })
+            localStorage.setItem("f121212", 3)
         }
         return (
             <Fragment>
@@ -61,8 +62,8 @@ class Dashboard extends Component {
                                 <p className="mb-xl-5 mb-lg-5 text-raleway-dashboard"><Flower />&nbsp;PORTFOLIO&nbsp;<Flower /></p>
                                 <div className="d-flex flex-row flex-wrap text-raleway-about text-dark pb-5">
                                     <Portfolio />
-                                </div> 
-                            </div> 
+                                </div>
+                            </div>
                         </div>
                         <div className="dashboard d-flex justify-content-center align-items-start p-5">
                             <div id="about" className="dash-about d-flex flex-column align-items-center justify-content-center">

@@ -1,17 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Welcome from '../components/Welcome';
-import DashboardRoutes from './DashboardRoutes';
 import '../assets/style/styles.css'
 import '../assets/style/component.css'
-
+import Dashboard from '../components/Dashboard';
+import Header from '../components/Header'
 export default function Routes() {
+    const [header, setHeader] = useState(false)
+
+    useEffect(() => {
+
+    });
     return (
         <Router>
+
             <Switch>
-                <Route exact path="/" component={Welcome} />
-                <Route path="/dashboard" component={DashboardRoutes} />
+                <Route exact path="/">
+                    <Welcome />
+                </Route>
+                <Route path="/dashboard">
+                    <div className="d-flex flex-column">
+                        <Header />
+                        <Dashboard />
+                    </div>
+                </Route>
             </Switch>
         </Router>
     )
