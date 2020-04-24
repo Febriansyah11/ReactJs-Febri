@@ -1,7 +1,7 @@
   .navbar-style {
       background-color: #01FF70;
   }
-  
+
   .welcome-style {
       display: flex;
       background-color: #17A2B8;
@@ -12,160 +12,198 @@
       -webkit-transition: 1s;
       transition: 1s;
   }
-  
+
   .welcome-style-text {
       color: white;
   }
-  
+
   .wlecome-icon:hover {
       text-decoration-color: white;
       color: white;
   }
-  
+
   .card-port {
       text-align: center;
       width: 25rem;
       height: 19rem;
       margin: 10px;
   }
-  
+
   .card-image {
       width: 16rem;
       height: 9rem;
   }
-  
+
   .dashboard {
       height: 100vh;
       background-color: #5bc0de;
   }
-  
+
   .potoprofil {
       width: 255px;
       height: 325px;
       border-radius: 50%;
   }
-  
+
   @media screen and (max-width: 1050px) {
       .potoprofil {
           width: 350px;
           height: 400px;
       }
+
       .card-image {
           width: 16rem;
           height: 12rem;
       }
+
       .card-port {
           width: 25rem;
           height: 24rem;
           margin: 10px;
       }
   }
-  
+
   @media screen and (max-width: 770px) {
       .card-image {
           width: 16rem;
           height: 12rem;
       }
+
       .card-port {
           width: 25rem;
           height: 22rem;
           margin: 10px;
       }
   }
-  
+
   @media screen and (max-width: 700px) {
       .dash-portp {
           width: 500px;
           overflow: hidden;
       }
+
       .potoprofil {
           width: 160px;
           height: 250px;
       }
+
       .card-port {
-          width: 18rem;
-          height: 18rem;
-          margin: 10px;
+          width: 21rem;
+          height: 19rem;
+      }
+
+      .card-image {
+          width: 17rem;
+          height: 9rem;
+          padding: 0;
       }
   }
-  
+
   @media screen and (max-width: 650px) {
       .dash-portp {
           width: 500px;
           overflow: hidden;
       }
+
       .potoprofil {
           width: 200px;
           height: 250px;
       }
+
       .card-port {
           width: 20rem;
           height: 19rem;
       }
   }
-  
+
   @media screen and (max-width: 500px) {
       .potoprofil {
           width: 230px;
           height: 280px;
       }
+
       .card-port {
-          width: 20rem;
+          width: 21rem;
           height: 19rem;
       }
+
+      .card-image {
+          width: 17rem;
+          height: 9rem;
+          padding: 0;
+      }
   }
-  
+
   @media screen and (max-width: 400px) {
       .potoprofil {
           width: 170px;
           height: 220px;
       }
-      .card-port {
-          width: 18rem;
-          height: 21rem;
-      }
+
       .dash-febri {
           padding-bottom: 10px;
       }
   }
-  
-  @media screen and (max-width: 350px) {
+
+  @media screen and (max-width: 360px) {
       .potoprofil {
           width: 170px;
           height: 220px;
       }
-      .card-port {
-          width: 18rem;
-          height: 21rem;
-      }
+
       .dash-febri {
           padding-bottom: 10px;
       }
   }
-  
+
+  @media screen and (max-width: 330px) {
+      .card-port {
+          width: 18rem;
+          height: 17rem;
+      }
+
+      .card-image {
+          width: 15rem;
+          height: 8rem;
+          padding: 0;
+      }
+  }
+  @media screen and (max-width: 300px) {
+      .card-port {
+          width: 16rem;
+          height: 17rem;
+      }
+
+      .card-image {
+          width: 13rem;
+          height: 8rem;
+          padding: 0;
+      }
+  }
+
   @media screen and (max-width: 1200px) {
       .dash-port {
           display: flex;
           flex-direction: column;
       }
   }
-  
+
   #skill {
       color: #313e61
   }
-  
+
   #education {
       color: white
   }
-  
+
   #experience {
       color: white
   }
-  
+
   #skill:hover {
       text-shadow: 2px 2px 4px #191919;
   }
-  
+
   #experience:hover {
       text-shadow: 2px 2px 4px #4c4c4c;
   }

@@ -138,20 +138,25 @@
     .text-raleway-about {
         font-size: 30px;
     }
+
     .text-raleway-about-item {
         font-size: 31px;
     }
+
     .text-raleway-febri {
         font-size: 40px;
     }
+
     .text-raleway-header {
         font-size: 18px;
     }
+
     .text-raleway-dashboard {
         margin-top: 10%;
         font-size: 38px;
         margin-bottom: 10%
     }
+
     .text-raleway-about-italic {
         font-size: 22px;
     }
@@ -161,20 +166,25 @@
     .text-raleway-about {
         font-size: 26px;
     }
+
     .text-raleway-about-item {
         font-size: 28px;
     }
+
     .text-raleway-febri {
         font-size: 30px;
     }
+
     .text-raleway-header {
         font-size: 14px;
     }
+
     .text-raleway-dashboard {
         margin-top: 10%;
         font-size: 30px;
         margin-bottom: 10%
     }
+
     .text-raleway-about-italic {
         font-size: 22px;
     }
@@ -184,18 +194,23 @@
     .text-raleway-about {
         font-size: 20px;
     }
+
     .text-raleway-about-item {
         font-size: 22px;
     }
+
     .text-raleway-febri {
         font-size: 26px;
     }
+
     .text-raleway-header {
         font-size: 14px;
     }
+
     .text-raleway-dashboard {
         font-size: 22px;
     }
+
     .text-raleway-about-italic {
         font-size: 18px;
     }
@@ -205,18 +220,23 @@
     .text-raleway-about {
         font-size: 20px;
     }
+
     .text-raleway-about-item {
         font-size: 21px;
     }
+
     .text-raleway-febri {
         font-size: 23px;
     }
+
     .text-raleway-header {
         font-size: 14px;
     }
+
     .text-raleway-dashboard {
         font-size: 22px;
     }
+
     .text-raleway-about-italic {
         font-size: 18px;
     }
@@ -226,15 +246,19 @@
     .text-raleway-about {
         font-size: 17px;
     }
+
     .text-raleway-about-item {
         font-size: 17px;
     }
+
     .text-raleway-febri {
         font-size: 21px;
     }
+
     .text-raleway-dashboard {
         font-size: 20px;
     }
+
     .text-raleway-about-italic {
         font-size: 16px;
     }
@@ -244,17 +268,52 @@
     .text-raleway-about {
         font-size: 15px;
     }
+
     .text-raleway-about-item {
         font-size: 16px;
     }
+
     .text-raleway-febri {
         font-size: 21px;
     }
+
     .text-raleway-dashboard {
         font-size: 20px;
     }
+
     .text-raleway-about-italic {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .text-raleway-about {
+        font-size: 13px;
+    }
+
+    .text-raleway-about-item {
+        font-size: 14px;
+    }
+
+    .text-raleway-febri {
+        font-size: 21px;
+    }
+
+    .text-raleway-dashboard {
+        font-size: 17px;
+    }
+
+    .text-raleway-about-italic {
+        font-size: 13px;
+    }
+
+    .text-raleway-about-project {
+        line-height: 23px;
+        font-size: 14px;
+        padding: 1px;
+    }
+    .btn-card {
+        font-size: 10px;
     }
 }
 
@@ -276,6 +335,7 @@
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }

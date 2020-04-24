@@ -94,7 +94,8 @@ export default class Portfolio extends Component {
                             <Card.Img className="card-image" src={FutsalBg} variant="top" />
                         </Card.Text>
                         <Card.Body>
-                            <Button variant="primary" onClick={() => this.setState({ showModal1: true })}>Show more</Button>
+                            <Button variant="primary" onClick={() => this.setState({ showModal1: true })}><p className="btn-card"
+                                className="btn-card">Show more</p></Button>
                         </Card.Body>
                     </Card.Body>
                 </Card>
@@ -106,7 +107,8 @@ export default class Portfolio extends Component {
                         </Card.Text>
                         <Card.Body>
 
-                            <Button variant="primary" onClick={() => this.setState({ showModal2: true })}>Show more</Button>
+                            <Button variant="primary" onClick={() => this.setState({ showModal2: true })}><p className="btn-card"
+                                className="btn-card">Show more</p></Button>
                         </Card.Body>
                     </Card.Body>
                 </Card>
@@ -115,7 +117,8 @@ export default class Portfolio extends Component {
                     <Card.Body>
                         <Card.Img className="card-image" src={Github} variant="top" />
                         <Card.Body className="m-auto">
-                            <Button variant="primary" onClick={e => window.location.href = 'https://github.com/Febriansyah11'} >Show more</Button>
+                            <Button variant="primary" className="btn-card mt-3" onClick={e => window.location.href = 'https://github.com/Febriansyah11'} ><p className="btn-card"
+                                className="btn-card">Show more</p></Button>
                         </Card.Body>
                     </Card.Body>
                 </Card>

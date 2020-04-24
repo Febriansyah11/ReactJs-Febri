@@ -72,7 +72,7 @@ export default class Footer extends Component {
 
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" sticky="bottom" bg="dark" variant="dark" className="dashboard d-flex flex-column justify-content-start align-items-center p-xl-5 p-lg-5 p-md-3 p-sm-1 p-xs-1 text-raleway-about">
+            <Navbar collapseOnSelect expand="lg" sticky="bottom" bg="dark" variant="dark" className="dashboard d-flex flex-column justify-content-start align-items-center p-xl-5 p-lg-5 p-md-3 p-sm-1 p-xs-0 text-raleway-about">
                 <p id="contact" className="m-5 text-raleway-dashboard text-white text-center mb-xl-5 mb-lg-5"><Flower />&nbsp;CONTACT ME&nbsp;<Flower /></p>
                 <Form onSubmit={this.handleSubmit} className="row w-100 bg-dark justify-content-center align-items-center text-white px-xl-5 px-lg-5">
                     <div className="row col-12 justify-content-center px-xl-5 px-lg-5">
