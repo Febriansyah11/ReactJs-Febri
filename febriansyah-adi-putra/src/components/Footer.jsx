@@ -95,7 +95,7 @@ export default class Footer extends Component {
                     <Button type="submit" className="col-xl-2 col-lg-4 col-md-11 col-sm-4 col-xs-8 col-7">Send</Button>
                 </Form>
                 <Nav.Link className="text-center mt-5 text-raleway-about-project ">
-                    About this project, i use ReactJs and NodeJs to make this, and i don't use templates
+                    About this project, i use ReactJs and ExpressJs to make this portfolio.
                 </Nav.Link>
             </Navbar>
         )

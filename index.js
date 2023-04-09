@@ -20,16 +20,18 @@ app.post('/api/form', (req, res) => {
         let transporter = nodemailer.createTransport({
             host: 'smtp.ethereal.email',
             port: 587,
+
+            // you should open the website ethereal mail and create a new account. after you get a new account, define a new account here.
             auth: {
-                user: 'dusty.lebsack@ethereal.email',
-                pass: 'DWPwNdtZnq3pBuFetK'
+                user: 'travis96@ethereal.email',
+                pass: 'k94smnTJRP5Z2tSWqb'
             }
         })
 
         let mailOptions = {
             from: `${req.body.email}`,
-            to: '1102.adiputra@gmail.com',
-            replyTo: `dusty.lebsack@ethereal.email`,
+            to: '1102.adiputra@gmail.com', // change to your email
+            replyTo: `travis96@ethereal.email`, // change like email at the top
             subject: 'New Message',
             text: req.body.message,
             html: htmlEmail
