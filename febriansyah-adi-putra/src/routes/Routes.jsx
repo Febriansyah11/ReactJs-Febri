@@ -7,11 +7,7 @@ import '../assets/style/component.css'
 import Dashboard from '../components/Dashboard';
 import Header from '../components/Header'
 export default function Routes() {
-    const [header, setHeader] = useState(false)
 
-    useEffect(() => {
-
-    });
     return (
         <Router>
 

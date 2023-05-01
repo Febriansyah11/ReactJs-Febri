@@ -18,7 +18,8 @@ class Dashboard extends Component {
     }
 
     componentDidMount() {
-        this.interval = setInterval(() => this.setState({ time: this.state.time += 1 }), 1000);
+        let timeNow =  this.state.time
+        this.interval = setInterval(() => this.setState({ time: timeNow += 1 }), 1000);
         let time = localStorage.getItem("f121212")
         parseInt(time) === 3 ? localStorage.setItem("f121212", 3) : localStorage.setItem("f121212", 7)
     }
@@ -29,7 +30,8 @@ class Dashboard extends Component {
 
     render() {
         let time = localStorage.getItem("f121212")
-        if (this.state.time === parseInt(time)) {
+        let timeNow =  this.state.time
+        if (timeNow === parseInt(time)) {
             clearInterval(this.interval)
             this.setState({
                 loading: false,
@@ -37,9 +39,11 @@ class Dashboard extends Component {
             })
             localStorage.setItem("f121212", 3)
         }
+
         return (
             <Fragment>
-                {this.state.loading === true ?
+                { 
+                this.state.loading ?
                     <div className="row justify-content-center align-content-center vh-100">
                         <img className="App-logo" src={ReactSpinner} alt="react-loading" />
                     </div>
